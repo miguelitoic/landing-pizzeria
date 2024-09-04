@@ -1,0 +1,33 @@
+
+.md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: 90% !important;
+    margin-left: 5% !important;
+}
+.img-1 {
+    background-image: url(recursos/imagen-1.png);
+}
+
+.img-2 {
+    background-image: url(recursos/flayer\ pizamm2.png);
+}
+
+.flayer {
+    background-image: url(recursos/flayer-1-pizzam.png);
+}
+
+.banner-principal {
+    background-image: url(recursos/imagen-1.png) !important;
+    width: auto !important;
+    height: 450px;
+    margin-top: 0%;
+    background-size: cover;
+}
+
+    img.logos {
+    width: 17%;
+}
+i.fa-solid.fa-user.fa-lg.text-gray-500.group-hover\:text-black {
+    display: none;
+}
+
